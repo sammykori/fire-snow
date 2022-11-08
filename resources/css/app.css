@@ -1,0 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/fc35b6a7243e8672fb59340563fc0fbd?family=BrushUpTooW01-Regular);
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
