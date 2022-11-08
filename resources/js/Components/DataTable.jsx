@@ -14,8 +14,8 @@ export default function DataTable(props) {
         e.preventDefault();
         post(route('subscribers.store'), { onSuccess: () => reset() });
     }
-    const handleEdit = (e) => {
-
+    const handleEdit = (id) => {
+         
     }
     return (
         <>
